@@ -12,7 +12,7 @@ namespace Batch1_DET_2022
     {
         public static void Main()
         {
-            Employee emp = new Employee(22825, "Rutuja", "Bangalore", 560098, 8105893428, 10000);
+            Employee emp = new Employee(22832, "Rahul", "Bangalore", 560098, 8088816052, 100000);
             Console.WriteLine($"Employee's net salary {emp.GetEmpNetSalary()}");
             Console.WriteLine($"Employee's grade is {emp.GetEmpGrade()}");
         }
